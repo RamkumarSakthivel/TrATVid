@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<VideoAnnotation>
+	<video path="./Videos/" name="video.avi"/>
+	<file name="video.xml"/>
+	<backup time="300"/>
+<!-- Interpolation types:
+	NI: No interpolation
+	LI: Linear interpolation 2D
+	CS: Cubic B-Spline interpolation 2D
+	GI: Linear interpolation unsing Geometric 3D
+	GC: Combined Cubic B-Spline - Geometric 3D
+-->
+	<interpolation type="GC" margin="5"/>
+</VideoAnnotation>
+
